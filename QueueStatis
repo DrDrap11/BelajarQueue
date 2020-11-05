@@ -1,0 +1,21 @@
+NGODING = KESABARAN
+
+public class QueueStatis {
+    public static void main(String[] args){
+        Queue Q = new Queue();
+        Q.createEmpty();
+        Q.printQueue();
+        
+        System.out.println("=======================================");
+        
+        Q.add("E31200782", "Risky Laely", 88.88);
+        Q.add("E41200058", "Tharixs Alibun", 99.99);
+        Q.add("E31201887", "Dimas Rizqi", 99.76);
+        
+        Q.del();
+        Q.del();
+        Q.printQueue();
+        
+        System.out.println("=======================================");
+    }
+}
