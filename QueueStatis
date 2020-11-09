@@ -12,6 +12,9 @@ public class QueueStatis {
         Q.add("E41200058", "Tharixs Alibun", 99.99);
         Q.add("E31201887", "Dimas Rizqi", 99.76);
         
+        Q.printQueue();
+        System.out.println("=======================================");
+        
         Q.del();
         Q.del();
         Q.printQueue();
